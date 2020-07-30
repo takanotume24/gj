@@ -8,6 +8,11 @@ targets:
   gj:
     main: src/gj.cr
 
+dependencies:
+  clim:
+    github: at-grandpa/clim
+    version: 0.13.0
+    
 crystal: 0.35.1
 
 license: MIT
